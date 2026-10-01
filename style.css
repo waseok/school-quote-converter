@@ -47,6 +47,7 @@ select:focus, input:focus { outline: 2px solid var(--accent); outline-offset: -1
 button { font: inherit; font-weight: 600; cursor: pointer; border-radius: 8px; padding: 10px 16px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
 button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 button.primary:hover { filter: brightness(1.08); }
+button small { display: block; font-size: 12px; font-weight: 400; opacity: .85; }
 button.link { border: none; background: none; color: var(--sub); padding: 4px 8px; font-weight: 400; text-decoration: underline; }
 .scroll { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
