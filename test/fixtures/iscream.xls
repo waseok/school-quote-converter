@@ -1,0 +1,25 @@
+<div>
+<p>견적서</p>
+<table><tbody><tr><td>
+<table><tbody>
+<tr><th>구분</th><th colspan="2">상품가격</th><th colspan="2">배송비</th><th colspan="2">합계금액</th></tr>
+<tr><th>원금액</th><td colspan="2">12,500원</td><td colspan="2">5,500원</td><td colspan="2">18,000원</td></tr>
+<tr><th>최종견적금액</th><td colspan="2">12,500원</td><td colspan="2">5,500원</td><td colspan="2">18,000원</td></tr>
+</tbody></table>
+</td></tr></tbody></table>
+</div>
+<div>
+<table>
+<thead>
+<tr><th colspan="13">상품정보</th></tr>
+<tr><td>순번</td><td>판매자</td><td>상품명</td><td>1개당 금액</td><td>업체 할인금액</td><td>쿠폰 할인금액</td><td>할인적용금액</td><td>수량</td><td colspan="3">합계금액</td><td colspan="2">배송비</td></tr>
+</thead>
+<tbody>
+<tr><th>1</th><td>가나다미디어</td><td><p>시험용 클립 (A4 / 6종) [1000001]</p><p>옵션 : 핑크</p></td><td>5,000원</td><td>0원</td><td>0원</td><td>5,000원</td><td>2</td><td colspan="3">10,000원</td><td colspan="2" rowspan="2">3,000원</td></tr>
+<tr><th>2</th><td>가나다미디어</td><td><p>시험용 풀 8g [1000002]</p><p>단일상품 : 단일상품</p></td><td>500원</td><td>0원</td><td>0원</td><td>500원</td><td>1</td><td colspan="3">500원</td></tr>
+<tr><th>3</th><td>라마바상사</td><td><p>시험용 노트 [1000003]</p><p>옵션 : 파랑</p></td><td>2,000원</td><td>0원</td><td>0원</td><td>2,000원</td><td>1</td><td colspan="3">2,000원</td><td colspan="2">2,500원</td></tr>
+</tbody>
+<tfoot><tr><th colspan="7">합계(3종)</th><td>4</td><td colspan="3">12,500원</td><td colspan="2">5,500원</td></tr></tfoot>
+</table>
+</div>
+<p>홈페이지 i-screammall.co.kr</p>

@@ -1,0 +1,15 @@
+<html><head><meta charset="utf-8"></head><body>
+<p class="font-tahoma">지마켓 견적서</p>
+<table>
+<thead><tr><th>번호</th><th>상품명</th><th>판매자</th><th>수량</th><th>단가</th><th>부가세</th><th>공급합계</th></tr></thead>
+<tbody>
+<tr><td class="first">1</td><td>모나미 네임펜 M</td><td>문구나라</td><td>3</td><td>1,000</td><td>0</td><td>3,000</td></tr>
+<tr><td>01) 블랙</td></tr>
+<tr><td class="first">2</td><td>A4 복사용지 500매</td><td>종이마을</td><td>2</td><td>5,000</td><td>0</td><td>9,500</td></tr>
+</tbody>
+</table>
+<table>
+<tr><th>배송비</th><td>2,500원</td></tr>
+<tr><th>총 구매금액</th><td>15,000원</td></tr>
+</table>
+</body></html>

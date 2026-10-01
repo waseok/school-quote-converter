@@ -1,0 +1,9 @@
+# 실제 견적서(개인정보 포함)는 공개 저장소에 올리지 않는다
+*.xls
+*.xlsx
+*.pdf
+# 시험용 가짜 견적서만 예외
+!test/fixtures/*.xls
+
+.env
+node_modules/

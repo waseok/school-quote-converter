@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>견적서 변환기</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="inner">
+    <h1>오픈마켓 견적서 변환기</h1>
+    <p>지마켓 · 옥션 · 11번가 · 아이스크림몰 견적서를 에듀파인 업로드용 엑셀로 바꿉니다</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h2><span class="step">1</span> 견적서 올리기</h2>
+    <div class="drop" id="drop" tabindex="0" role="button" aria-label="견적서 파일 선택">
+      <b>파일을 끌어다 놓거나</b> 클릭해서 고르세요<br>
+      <span class="muted">지마켓·옥션·아이스크림몰 <code>.xls</code> / 11번가 <code>.pdf</code> — 여러 개 한 번에 가능</span>
+    </div>
+    <input type="file" id="file" class="hidden" multiple accept=".xls,.pdf">
+    <ul class="files" id="files"></ul>
+  </section>
+
+  <section class="card hidden" id="results">
+    <h2><span class="step">2</span> 확인하고 내려받기</h2>
+    <div class="scroll" id="summary"></div>
+
+    <p class="note">품명은 칸을 눌러 바로 고칠 수 있습니다. 칸에 마우스를 올리면 원본 문구가 보입니다.
+      아래 표에서 고친 내용이 그대로 엑셀에 들어갑니다. 규격 칸은 모든 줄에 빈칸(공백 한 칸)만 들어갑니다.</p>
+    <div class="scroll" id="item-table"></div>
+
+    <div class="actions">
+      <button class="primary" id="dl-pumui" type="button">품목내역 (선생님 · 품의)</button>
+      <button class="primary" id="dl-goods" type="button">물품내역 (행정실 · 원인행위)</button>
+      <button class="link" id="clear" type="button">모두 지우기</button>
+    </div>
+    <p class="note">내려받은 파일은 에듀파인의 해당 서식 업로드 화면에 그대로 올립니다.
+      품목내역의 예상단가는 올림 처리되어, 에듀파인에서 저장하면 예상금액이 실결제 금액 이상으로 채워집니다.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>모든 처리는 이 브라우저 안에서만 이뤄지며 견적서 파일은 어디로도 전송되지 않습니다.
+    품명 정리는 규칙 기반이므로 내려받기 전에 표에서 한 번 확인해 주세요.</p>
+  <p class="muted">견적서 변환 규칙의 아이디어는 이리고등학교 한성준 선생님의 market_to_excel 프로젝트를 참고했고,
+    코드는 새로 작성했습니다.</p>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="app.bundle.js"></script>
+</body>
+</html>

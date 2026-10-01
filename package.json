@@ -1,0 +1,8 @@
+{
+  "name": "school-quote-converter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/pure.test.mjs"
+  }
+}
